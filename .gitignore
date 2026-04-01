@@ -1,0 +1,12 @@
+﻿.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+debug/
+data/
+data_smoke/
+data_smoke_one/
+_tmpdata/
+.env
+*.log
+*.pyc

@@ -1,0 +1,16 @@
+﻿{
+  "mcpServers": {
+    "goldspatula-data": {
+      "command": "python",
+      "args": ["-m", "chanchan", "mcp", "--transport", "stdio"],
+      "env": {
+        "PYTHONPATH": "./src",
+        "GCC_STORAGE_BACKEND": "cos",
+        "GCC_COS_REGION": "ap-beijing",
+        "GCC_COS_BUCKET": "your-bucket",
+        "GCC_COS_SECRET_ID": "<YOUR_SECRET_ID>",
+        "GCC_COS_SECRET_KEY": "<YOUR_SECRET_KEY>"
+      }
+    }
+  }
+}
