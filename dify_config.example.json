@@ -1,10 +1,8 @@
 ﻿{
   "mcpServers": {
     "goldspatula-data": {
-      "command": "python",
-      "args": ["-m", "chanchan", "mcp", "--transport", "stdio"],
+      "url": "http://host.docker.internal:8000/sse",
       "env": {
-        "PYTHONPATH": "./src",
         "GCC_STORAGE_BACKEND": "cos",
         "GCC_COS_REGION": "ap-beijing",
         "GCC_COS_BUCKET": "your-bucket",
