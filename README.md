@@ -1,7 +1,6 @@
-﻿# 铲铲新
-
-把旧项目里真正有业务价值的部分重组成一个统一代码库：
-
+﻿# 金铲铲AI助手
+ 注：用到dify，需自行下载安装
+ 
 - `playwright` 抓取金铲铲官网数据
 - 通过本地文件或腾讯云 COS 存储抓取结果
 - 通过 `FastMCP` 暴露给 Dify 调用
@@ -56,8 +55,3 @@ python -m chanchan mcp --transport stdio
 python -m chanchan mcp --transport sse --host 0.0.0.0 --port 8000
 ```
 
-## 迁移说明
-
-已迁入：英雄、羁绊、强化符文、装备、公告抓取，以及 MCP 查询服务。
-
-已去掉：硬编码密钥、重复服务器实现、调试脚本、写死路径。
